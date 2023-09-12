@@ -1,0 +1,35 @@
+.layout{
+  height: 100vh;
+  width: 100vw;
+}
+.sidebar {
+  height: 74.6vh;
+  background-color: #3976d2;
+  box-shadow: 0 0 2px gray;
+  color: white;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.menu-item a {
+  color: #e2e2e2;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+  color: white;
+}
+
+.active {
+  background-color: white;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.active a,
+.active i {
+  color: #3976d2;
+}
